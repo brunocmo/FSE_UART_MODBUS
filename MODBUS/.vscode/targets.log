@@ -1,0 +1,471 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-suse-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Aug 15 15:31:59 2022
+
+# Variables
+
+# environment
+JAVA_HOME = /usr/lib64/jvm/jre-openjdk
+# environment
+QEMU_AUDIO_DRV = pa
+# environment
+GDK_BACKEND = x11
+# makefile (from 'Makefile', line 8)
+OBJFOLDER := obj/
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GTK_RC_FILES = /etc/gtk/gtkrc:/home/bruno/.gtkrc:/home/bruno/.config/gtkrc
+# environment
+KONSOLE_DBUS_SERVICE = :1.1973
+# environment
+WINDOWMANAGER = /usr/bin/startplasma-x11
+# environment
+VSCODE_CWD = /home/bruno/Documents/UnB/Graduacao/2022_1/Embarcados/MODBUS
+# environment
+GPG_TTY = /dev/pts/1
+# environment
+WINDOWID = 32505863
+# environment
+MACHTYPE = x86_64-suse-linux
+# environment
+NVM_DIR = /home/bruno/.nvm
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+PYTHONSTARTUP = /etc/pythonstart
+# environment
+KONSOLE_VERSION = 220403
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/bruno/Documents/UnB/Graduacao/2022_1/Embarcados/MODBUS
+# environment
+HOST = supernova
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MORE = -sl
+# environment
+HOSTNAME = supernova
+# environment
+MAIL = /var/spool/mail/bruno
+# environment
+XNLSPATH = /usr/share/X11/nls
+# environment
+XDG_DATA_DIRS = /home/bruno/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/bruno/Documents/UnB/Graduacao/2022_1/Embarcados
+# environment
+KONSOLE_DBUS_WINDOW = /Windows/1
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/bruno/.nvm/versions/node/v18.7.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/bruno/.config/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+PROFILEREAD = true
+# environment
+SSH_ASKPASS = /usr/libexec/ssh/ssh-askpass
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/xauth_EJXhOB
+# environment
+MANPATHISSET = yes
+# default
+.LOADED := 
+# environment
+FROM_HEADER = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+COLORFGBG = 15;0
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/bruno/Documents/UnB/Graduacao/2022_1/Embarcados/MODBUS
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = lessopen.sh %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXNwJIGg/agent.3337
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/bruno/.nvm/versions/node/v18.7.0/bin
+# environment
+HISTSIZE = 1000
+# environment
+XDG_CONFIG_DIRS = /home/bruno/.config/kdedefaults:/etc/xdg:/usr/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 6)
+SRCFOLDER := src/
+# environment
+XCURSOR_THEME = breeze_cursors
+# environment
+LESSKEY = /usr/etc/lesskey.bin
+# environment
+XDG_SESSION_DESKTOP = KDE
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 4252
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+XAUTHLOCALHOSTNAME = supernova
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 11)
+SRCFILES := src/Comms_UART.cpp src/main.cpp
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = /home/bruno/.nvm/versions/node/v18.7.0/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+JAVA_ROOT = /usr/lib64/jvm/jre-openjdk
+# environment
+LESS_ADVANCED_PREPROCESSOR = no
+# environment
+JAVA_BINDIR = /usr/lib64/jvm/jre-openjdk/bin
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 4)
+INCFOLDER := inc/
+# default
+MAKE_HOST := x86_64-suse-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=local
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+SHLVL = 2
+# environment
+PROFILEHOME = 
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/bruno/kde/src/kdesrc-build:/home/bruno/kde/src/kdesrc-build:/home/bruno/.nvm/versions/node/v18.7.0/bin:/home/bruno/.local/bin:/home/bruno/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = 
+# automatic
+^F = $(notdir $^)
+# environment
+OSTYPE = linux
+# environment
+INVOCATION_ID = 33839cbed6cd4dac81708cc198f77f41
+# environment
+MINICOM = -c on
+# environment
+CPU = x86_64
+# environment
+LESSCLOSE = lessclose.sh %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+KDE_APPLICATIONS_AS_SCOPE = 1
+# environment
+XDG_SEAT = seat0
+# environment
+XSESSION_IS_UP = yes
+# environment
+GTK_IM_MODULE = cedilla
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+XDG_CURRENT_DESKTOP = KDE
+# environment
+HOSTTYPE = x86_64
+# environment
+LS_COLORS = no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tgz=00;31:*.arc=00;31:*.arj=00;31:*.taz=00;31:*.lha=00;31:*.lz4=00;31:*.lzh=00;31:*.lzma=00;31:*.tlz=00;31:*.txz=00;31:*.tzo=00;31:*.t7z=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.dz=00;31:*.gz=00;31:*.lrz=00;31:*.lz=00;31:*.lzo=00;31:*.xz=00;31:*.zst=00;31:*.tzst=00;31:*.bz2=00;31:*.bz=00;31:*.tbz=00;31:*.tbz2=00;31:*.tz=00;31:*.deb=00;31:*.rpm=00;31:*.jar=00;31:*.war=00;31:*.ear=00;31:*.sar=00;31:*.rar=00;31:*.alz=00;31:*.ace=00;31:*.zoo=00;31:*.cpio=00;31:*.7z=00;31:*.rz=00;31:*.cab=00;31:*.wim=00;31:*.swm=00;31:*.dwm=00;31:*.esd=00;31:*.asf=01;35:*.avi=01;35:*.bmp=01;35:*.cgm=01;35:*.dl=01;35:*.emf=01;35:*.flc=01;35:*.fli=01;35:*.flv=01;35:*.gif=01;35:*.gl=01;35:*.jpeg=01;35:*.jpg=01;35:*.m2v=01;35:*.m4v=01;35:*.mjpeg=01;35:*.mjpg=01;35:*.mkv=01;35:*.mng=01;35:*.mov=01;35:*.mp4=01;35:*.mp4v=01;35:*.mpeg=01;35:*.mpg=01;35:*.nuv=01;35:*.ogm=01;35:*.pbm=01;35:*.pcx=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.qt=01;35:*.rm=01;35:*.rmvb=01;35:*.svg=01;35:*.svgz=01;35:*.tga=01;35:*.tif=01;35:*.tiff=01;35:*.vob=01;35:*.webm=01;35:*.webp=01;35:*.wmv=01;35:*.xbm=01;35:*.xcf=01;35:*.xpm=01;35:*.xwd=01;35:*.yuv=01;35:*.ogv=01;35:*.ogx=01;35:*.aiff=00;32:*.ape=00;32:*.aac=00;32:*.au=00;32:*.flac=00;32:*.m4a=00;32:*.mid=00;32:*.midi=00;32:*.mka=00;32:*.mp3=00;32:*.mpc=00;32:*.ogg=00;32:*.ra=00;32:*.voc=00;32:*.wav=00;32:*.wma=00;32:*.wv=00;32:*.oga=00;32:*.opus=00;32:*.spx=00;32:*.xspf=00;32:
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+LESS = -M -I -R
+ 
+# environment
+DESKTOP_SESSION = /usr/share/xsessions/default
+# environment
+CONFIG_SITE = /usr/share/site/x86_64-pc-linux-gnu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = KDE
+# makefile (from 'Makefile', line 2)
+BINFOLDER := bin/
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = bruno
+# environment
+QT_IM_SWITCHER = imsw-multi
+# environment
+AUDIODRIVER = pulseaudio
+# environment
+G_FILENAME_ENCODING = @locale,UTF-8,ISO-8859-15,CP1252
+# environment
+LIBVA_DRIVER_NAME = iHD
+# environment
+PLATFORMIO_PATH = /home/bruno/.platformio/penv/bin:/home/bruno/.platformio/penv:/home/bruno/.platformio/python3/bin:/home/bruno/kde/src/kdesrc-build:/home/bruno/kde/src/kdesrc-build:/home/bruno/.nvm/versions/node/v18.7.0/bin:/home/bruno/.local/bin:/home/bruno/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 3730
+# environment
+DISPLAY = :0
+# environment
+GTK_MODULES = canberra-gtk-module
+# environment
+USER = bruno
+# default
+MAKE_VERSION := 4.3
+# environment
+KDE_SESSION_UID = 1000
+# environment
+KONSOLE_DBUS_SESSION = /Sessions/1
+# environment
+MANAGERPID = 2302
+# environment
+SSH_AGENT_PID = 3666
+# environment
+PAGER = less
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 10)
+CFLAGS := -W -Wall -ansi -std=c++11 -pedantic -ggdb
+# environment
+G_BROKEN_FILENAMES = 1
+# environment
+COLORTERM = truecolor
+# environment
+NVM_CD_FLAGS = 
+# environment
+JOURNAL_STREAM = 8:35734
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PLATFORMIO_IDE = 2.5.2
+# environment
+XKEYSYMDB = /usr/X11R6/lib/X11/XKeysymDB
+# environment
+GTK2_RC_FILES = /etc/gtk-2.0/gtkrc:/home/bruno/.gtkrc-2.0:/home/bruno/.config/gtkrc-2.0
+# environment
+HOME = /home/bruno
+# environment
+QT_IM_MODULE = xim
+# environment
+CSHEDIT = emacs
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-15dc97f4-1.70.1-main.sock
+# environment
+TERM = xterm-256color
+# environment
+XDG_SESSION_ID = 2
+# environment
+XCURSOR_SIZE = 24
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LS_OPTIONS = -N --color=tty -T 0
+# environment
+SHELL_SESSION_ID = 08227e775cf74dd0891ed3585a9d25a1
+# environment
+KDE_SESSION_VERSION = 5
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 9)
+CC := g++
+# environment
+KDE_FULL_SESSION = true
+# environment
+JRE_HOME = /usr/lib64/jvm/java-11-openjdk-11
+# variable set hash-table stats:
+# Load=163/1024=16%, Rehash=0, Collisions=16/199=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 65026, inode 47711836): 4 files, no impossibilities.
+# . (device 65026, inode 47711710): 10 files, no impossibilities.
+
+# 14 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+obj/%.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 15):
+	$(CC) $(CFLAGS) -c $< -o $@ -I./inc
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+obj/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-15 15:27:42.899702466
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	rm -rf obj/*
+	rm -rf bin/*
+
+# Not a target:
+bin/prog:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: obj/Comms_UART.o obj/main.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 13):
+	$(CC) $(CFLAGS) obj/*.o -o bin/prog
+
+run: bin/prog
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	bin/prog
+
+# Not a target:
+src/Comms_UART.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-15 15:27:42.899702466
+#  File has been updated.
+#  Successfully updated.
+
+obj/Comms_UART.o: src/Comms_UART.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Comms_UART'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/Comms_UART.o
+# automatic
+# * := Comms_UART
+# automatic
+# < := src/Comms_UART.cpp
+# automatic
+# + := src/Comms_UART.cpp
+# automatic
+# % := 
+ 
+# automatic
+# ^ := src/Comms_UART.cpp
+# automatic
+# ? := src/Comms_UART.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 15):
+	$(CC) $(CFLAGS) -c $< -o $@ -I./inc
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/30=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 246 B / avg = 9 B
+# current buf: size = 8162 B / used = 246 B / count = 27 / avg = 9 B
+
+# strcache performance: lookups = 41 / hit rate = 34%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Mon Aug 15 15:31:59 2022
+
+ 

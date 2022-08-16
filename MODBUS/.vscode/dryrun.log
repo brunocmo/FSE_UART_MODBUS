@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/bruno/Documents/UnB/Graduacao/2022_1/Embarcados/MODBUS'
+g++ -W -Wall -ansi -std=c++11 -pedantic -ggdb -c src/Comms_UART.cpp -o obj/Comms_UART.o -I./inc
+g++ -W -Wall -ansi -std=c++11 -pedantic -ggdb -c src/main.cpp -o obj/main.o -I./inc
+g++ -W -Wall -ansi -std=c++11 -pedantic -ggdb obj/*.o -o bin/prog
+make: Leaving directory '/home/bruno/Documents/UnB/Graduacao/2022_1/Embarcados/MODBUS'
+ 
